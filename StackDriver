@@ -1,0 +1,15 @@
+Use Stackdriver Monitoring to look for insights that show when your API latencies are high – 
+this could tell you when the API call latency reaching to certain threshold/criteria but can hardly tell where the root causes is without additional setup and analysis. 
+
+Reference Resources 
+
+Stackdriver Trace can help you answer the following questions: 
+https://cloud.google.com/trace/docs/overview
+•	How long does it take my application to handle a given request? 
+•	Why is it taking my application so long to handle a request? 
+•	Why do some of my requests take longer than others? 
+•	What is the overall latency of requests to my application? 
+•	Has latency for my application increased or decreased over time? 
+•	What can I do to reduce application latency? 
+
+“As micro-services become more popular, the cross-application tracing provided by Stackdriver Trace becomes essential in pinpointing the root cause of latency issues.”
