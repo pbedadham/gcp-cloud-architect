@@ -11,7 +11,8 @@ Datastore: A scalable, fully-managed NoSQL document database for your web and mo
           Product catalogs 
           Game state 
           
-Bigtable: A scalable, fully-managed NoSQL wide-column database that is suitable for both real-time access and analytics workloads. Bigtable is ideal for very large NoSQL datasets and is useful for high-speed transactions and analysis. It integrates well with ML. Dataproc, and analytics 
+Bigtable: A scalable, fully-managed NoSQL wide-column database that is suitable for both real-time access and analytics workloads. Bigtable is ideal for very large NoSQL datasets and is useful for high-speed transactions and analysis. 
+It integrates well with ML. Dataproc, and analytics 
 
      Good for 
           Low-latency read/write access 
@@ -24,3 +25,14 @@ Bigtable: A scalable, fully-managed NoSQL wide-column database that is suitable 
           Monitoring 
           Geospatial datasets 
           Graphs 
+
+Cloud Dataflow (https://cloud.google.com/dataflow/) is a fully-managed service for transforming and enriching data in stream (real time) and batch (historical) modes with equal reliability and expressiveness - no more complex workarounds or compromises needed. 
+And with its serverless approach to resource provisioning and management, you have access to virtually limitless capacity to solve your biggest data processing challenges, while paying only for what you use. 
+
+Cloud Dataflow unlocks transformational use cases across industries, including: 
+•	check Clickstream, Point-of-Sale, and segmentation analysis in retail
+•	check Fraud detection in financial services
+•	check Personalized user experience in gaming
+•	check IoT analytics in manufacturing, healthcare, and logistics
+
+Dataflow acts as your data processing pipeline for ETL functions on both streaming and batch data. 
