@@ -10,6 +10,7 @@ Datastore: A scalable, fully-managed NoSQL document database for your web and mo
           User profiles 
           Product catalogs 
           Game state 
+---------------------
           
 Bigtable: A scalable, fully-managed NoSQL wide-column database that is suitable for both real-time access and analytics workloads. Bigtable is ideal for very large NoSQL datasets and is useful for high-speed transactions and analysis. 
 It integrates well with ML. Dataproc, and analytics 
@@ -26,6 +27,7 @@ It integrates well with ML. Dataproc, and analytics
           Geospatial datasets 
           Graphs 
       Cloud Bigtable is the most performant storage option to work with IoT and time series data
+ --------------------------
 
 Cloud Dataflow (https://cloud.google.com/dataflow/) is a fully-managed service for transforming and enriching data in stream (real time) and batch (historical) modes with equal reliability and expressiveness - no more complex workarounds or compromises needed. 
 And with its serverless approach to resource provisioning and management, you have access to virtually limitless capacity to solve your biggest data processing challenges, while paying only for what you use. 
@@ -38,13 +40,11 @@ Cloud Dataflow unlocks transformational use cases across industries, including:
 
 Dataflow acts as your data processing pipeline for ETL functions on both streaming and batch data. 
 https://s3.amazonaws.com/whizlabs-pub/GCP+Professional+Cloud+Architect+Images/GCP+PCA_PT1/PT1_Q15.png
------
-Requirements for Game Analytics Platform
-•	Dynamically scale up or down based on game activity – Compute engine, container engine, Cloud Storage
-•	Process incoming data on the fly directly from the game servers - Cloud Dataflow (Both Stream and Batch) 
-•	Process data that arrives late because of slow mobile networks - Cloud Pub/Sub
-•	Allow SQL queries to access at least 10 TB of historical data - BigQuery
-•	Process files that are regularly uploaded by users’ mobile devices - Cloud Pub/Sub
-•	Use only fully managed services – BigQuery, DataFlow, Cloud SQL
+-------------------------
+Cloud Dataproc
+This is the only choice in the answers you can (almost) directly map to your on-premises Apache Spark/Hadoop platform and meet the requirements “scale this upcoming demand with the least amount of operations work and code change”. 
+
+Cloud Dataproc is a fast, easy-to-use, fully-managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way. Operations that used to take hours or days take seconds or minutes instead, and you pay only for the resources you use (with per-second billing). Cloud Dataproc also easily integrates with other Google Cloud Platform (GCP) services, giving you a powerful and complete platform for data processing, analytics and machine learning. 
+https://cloud.google.com/dataproc/
 ------
 
