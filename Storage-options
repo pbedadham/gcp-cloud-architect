@@ -1,0 +1,26 @@
+Data
+
+Datastore: A scalable, fully-managed NoSQL document database for your web and mobile applications. 
+      Good for: 
+           Semi-structured application data 
+           Hierarchical data 
+           Durable key-value data 
+
+      Workload: 
+          User profiles 
+          Product catalogs 
+          Game state 
+          
+Bigtable: A scalable, fully-managed NoSQL wide-column database that is suitable for both real-time access and analytics workloads. Bigtable is ideal for very large NoSQL datasets and is useful for high-speed transactions and analysis. It integrates well with ML. Dataproc, and analytics 
+
+     Good for 
+          Low-latency read/write access 
+          High-throughput analytics 
+          Native time series support 
+
+      Work load 
+          IoT, finance, adtech 
+          Personalization, recommendations 
+          Monitoring 
+          Geospatial datasets 
+          Graphs 
