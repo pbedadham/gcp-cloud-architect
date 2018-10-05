@@ -1,0 +1,11 @@
+
+Requirements for Game Analytics Platform
+•	Dynamically scale up or down based on game activity – Compute engine, container engine, Cloud Storage
+•	Process incoming data on the fly directly from the game servers - Cloud Dataflow (Both Stream and Batch) 
+•	Process data that arrives late because of slow mobile networks - Cloud Pub/Sub
+•	Allow SQL queries to access at least 10 TB of historical data - BigQuery
+•	Process files that are regularly uploaded by users’ mobile devices - Cloud Pub/Sub
+•	Use only fully managed services – BigQuery, DataFlow, Cloud SQL
+-------
+Architecture ref- 
+https://s3.amazonaws.com/whizlabs-pub/GCP+Professional+Cloud+Architect+Images/GCP+PCA_PT1/PT1_Q31.png
