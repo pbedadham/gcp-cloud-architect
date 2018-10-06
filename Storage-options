@@ -26,7 +26,7 @@ It integrates well with ML. Dataproc, and analytics
           Monitoring 
           Geospatial datasets 
           Graphs 
-      Cloud Bigtable is the most performant storage option to work with IoT and time series data
+      Cloud Bigtable is the most performant storage option to work with IoT and time series data. Although both Datastore and Bigtable are NoSQL databases, Bigtable is able to support over a petabyte of data and is useful for high speed analytics as well, whereas Datastore is not.
  --------------------------
 
 Cloud Dataflow (https://cloud.google.com/dataflow/) is a fully-managed service for transforming and enriching data in stream (real time) and batch (historical) modes with equal reliability and expressiveness - no more complex workarounds or compromises needed. 
