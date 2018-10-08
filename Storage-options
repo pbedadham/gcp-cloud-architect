@@ -47,4 +47,6 @@ This is the only choice in the answers you can (almost) directly map to your on-
 Cloud Dataproc is a fast, easy-to-use, fully-managed cloud service for running Apache Spark and Apache Hadoop clusters in a simpler, more cost-efficient way. Operations that used to take hours or days take seconds or minutes instead, and you pay only for the resources you use (with per-second billing). Cloud Dataproc also easily integrates with other Google Cloud Platform (GCP) services, giving you a powerful and complete platform for data processing, analytics and machine learning. 
 https://cloud.google.com/dataproc/
 ------
+BigQuery provides a flexible, powerful foundation for Machine Learning and Artificial Intelligence. BigQuery provides integration with CloudML Engine and TensorFlow to train powerful models on structured data. 
+Moreover, BigQuery’s ability to transform and analyze data helps you get your data in shape for Machine Learning. 
 
